@@ -1,0 +1,38 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background-color: #96ceb4;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 200px 50px;
+  grid-gap: 3px;
+}
+
+.Bapak {
+  grid-column: 2 / -1;
+}
+
+.Mamah {
+  grid-row: 1 / 3;
+}
+
+.Anak1 {
+  grid-column: 2 / -1;
+}
+
+.Anak2 {
+  grid-column: 1 / -1;
+}
+
+.Anak3 {
+  grid-column: 1 / -1;
+}
+
+
+
+
